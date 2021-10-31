@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latihan CSS</title>
     <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
         body {
             background-color:ivory;
         }
@@ -20,50 +25,44 @@
             padding: 20px 5px 20px 5px;
             text-align: center;
         }
+        
         h1 {
             font-size: 18px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
         }
-        h1:hover{
-            font-size: 24px;
-            color: tomato;
-        }
-
-
+        
         .navbar {
             background-color:rgba(0, 255, 115, 0.1);
         }
+        
         .navbar ul {
             margin: 0px;
             padding: 5px 0px 5px 30px;
             text-align: center;
         }
+        
         .navbar li {
             font-family: monospace;
             text-decoration: none;
             display: inline;
             margin: auto;
             padding: 5px 5px 5px 5px;
-           
-            
         }
+        
         a {
             text-decoration: none;
             color:slategray;
             font-size: 14px;
-            
         }
+        
         a:hover{
             color: tomato;
             font-size: 16px;
             font-weight: bold;
         }
         
-
-        
         .fullCard {
-            
             width: 256px;
             border: 0px solid greenyellow;
             border-radius: 10px;
@@ -71,6 +70,7 @@
             padding: 10px;
             background: linear-gradient(35deg,#CCFFFF, #FFCCCC)
         }
+        
         .cardContent {
             padding: 10px;
         }
@@ -78,19 +78,18 @@
         #thumbnail {
             box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         }
+        
         footer {
-            
             margin: 0px;
             padding: 5px 0px 5px 30px;
             background: repeating-linear-gradient(
-      45deg,
-      yellow 0px,
-      yellow 40px,
-      black 40px,
-      black 80px
-    );
-
+            45deg,
+            yellow 0px,
+            yellow 40px,
+            black 40px,
+            black 80px);
         }
+        
         footer p{
             color: whitesmoke;
             font-family: monospace;
@@ -101,11 +100,11 @@
 </head>
 <body>
     <header>
-        <h1 class="textHeader">SMK MAARIF NU CIAMIS | Official Website</h1>
+        <h1 class="textHeader">Abdul Rohim | Official Website</h1>
         <nav class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Profil</a></li>
+                <li><a href="https://instagram.com/arohimgumilar">Profil</a></li>
                 <li><a href="#">Portofolio</a></li>
                 <li><a href="#">Hubungi kami</a></li>
             </ul>
