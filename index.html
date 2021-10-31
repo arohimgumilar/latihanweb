@@ -4,41 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdul Rohim | Personal Web</title>
+    <title>Latihan CSS</title>
+    <style>
+        body {
+            background-color:ivory;
+        }
+       
+        .textHeader {
+            background-color:rgba(0, 255, 115, 1);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 28px;
+            color: snow;
+            top: 0;
+            margin: auto;
+            padding: 20px 5px 20px 5px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+        h1:hover{
+            font-size: 24px;
+            color: tomato;
+        }
+
+
+        .navbar {
+            background-color:rgba(0, 255, 115, 0.1);
+        }
+        .navbar ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;
+            text-align: center;
+        }
+        .navbar li {
+            font-family: monospace;
+            text-decoration: none;
+            display: inline;
+            margin: auto;
+            padding: 5px 5px 5px 5px;
+           
+            
+        }
+        a {
+            text-decoration: none;
+            color:slategray;
+            font-size: 14px;
+            
+        }
+        a:hover{
+            color: tomato;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+
+        
+        .fullCard {
+            
+            width: 256px;
+            border: 0px solid greenyellow;
+            border-radius: 10px;
+            margin: 50px 20px; 
+            padding: 10px;
+            background: linear-gradient(35deg,#CCFFFF, #FFCCCC)
+        }
+        .cardContent {
+            padding: 10px;
+        }
+       
+        #thumbnail {
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+        footer {
+            
+            margin: 0px;
+            padding: 5px 0px 5px 30px;
+            background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );
+
+        }
+        footer p{
+            color: whitesmoke;
+            font-family: monospace;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Abdul Rohim | Personal Web</h1>
-        <div class="header-list">
-          <ul>
-            <li><a href="https://www.instagram.com/arohimgumilar/"> About me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Hubungi Kami</a></li>
-          </ul>
+    <header>
+        <h1 class="textHeader">SMK MAARIF NU CIAMIS | Official Website</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Portofolio</a></li>
+                <li><a href="#">Hubungi kami</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <h1>Home</h1>
+    <div class="fullCard" id="thumbnail">
+        <div class="cardContent">
+            <div class="cardText">
+                <h1>Multimedia</h1>
+                <hr>
+                <p>Selamat datang di web pertama saya.</p>
+            </div>
         </div>
-      </div>
-      <div class="main">
-        <div class="">
-          <h1>About me<span>.</span></h1>
-          <h2>Ayo belajar coding</h2>
-          <p>Saya Abdul Rohim Gumilar. Lahir di Ciamis pada bulan Juli 1988. Saat ini saya sudah berkeluarga dan tinggal di Tasikmalaya.
-            Saya adalah orang yang cukup disiplin, humoris, sangat menghargai orang lain apalagi terhadap orang yang lebih tua. 
-            Saya suka mempelajari hal baru, apalagi dalam dunia IT, perkembangannya sangat cepat, sangat penting bagi saya untuk meng-Upgrade Skill.
-            Saya juga bukanlah orang yang sempurna yang pasti memiliki kekurangan dan keterbatasan, tapi percayalah dengan terus belajar dan selalu instropeksi diri, kekurangan akan menjadi kelebihan.
-            Bagi Saya, keluarga merupakan hal, karena mereka selalu memberikan semangat dan selalu mendukung Saya dengan kegiatan positif. Saya selalu bersyukur dengan apa yang Tuhan berikan di dalam kehidupan Saya. Hal yang selalu ingin Saya lakukan adalah bisa membahagiakan orang tua dengan membuat mereka bangga dan bisa menjadi orang yang berguna untuk orang lain.
-        </p>
+    </div>
+    <div class="fullCard" id="thumbnail">
+        <div class="cardContent">
+            <div class="cardText">
+                <h1>Teknik Komputer & Jaringan</h1>
+                <hr>
+                <p>Selamat datang di web pertama saya.</p>
+            </div>
         </div>
-              
-        <div class="footer">
-        <div class="footer-logo">Abdul Rohim Gumilar</div>
-        <div class="footer-list">
-          <ul>
-            <li><a href="#"> About me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Hubungi Kami</a></li>
-          </ul>
-        </div>
-      </div>
-    
+    </div>
+</main>
+    <footer>
+        <p>&copy;2021 -- Love from SMK MAARIF NU Ciamis</p>
+    </footer>
 </body>
 </html>
